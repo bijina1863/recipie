@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img class="img1" src="data:image/jpeg;base64,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" alt="">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Recipes</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section id="home">
+
+        <div class="row">
+
+            <div class="main">
+                <h3>Chicken Noodles</h3>
+                <img src="https://media.istockphoto.com/id/483137365/photo/asian-chow-mein-noodles.jpg?s=612x612&w=0&k=20&c=aVkPKpDkiAM7CxTFinQBax0i-nm-ybzWimrJRyPePcg=" alt="">
+                <h4>Recipe</h4>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/OjNXtiymYj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="main">
+                <h3>White Sauce Pasta</h3>
+                <img src="https://media.istockphoto.com/id/517161718/photo/penne-with-white-sauce.jpg?s=612x612&w=0&k=20&c=dvWF8i9hJLRZFQSczif4yK0nnjcnT7sC95T_FYH9FbQ=" alt="">
+                <h4>Recipe</h4>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/NmDqJGhTXqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="main">
+                <h3>Chicken Biriyani</h3>
+                <img src="https://st4.depositphotos.com/18645588/25027/i/600/depositphotos_250275316-stock-photo-spicy-mouth-watering-chicken-biryani.jpg" alt="">
+                <h4>Recipe</h4>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/95BCU1n268w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="main">
+                <h3>Chicken Curry</h3>
+                <img src="https://thumbs.dreamstime.com/b/chicken-curry-29197236.jpg" alt="">
+                <h4>Recipe</h4>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/WRYOVVexMhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+        
+        </div>
+
+        <div class="row">
+
+            <div class="main">
+                <h3>Pizza</h3>
+                <img src="https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*" alt="">
+                <h4>Recipe</h4>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/sv3TXMSv6Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="main">
+                <h3>Burger</h3>
+                <img src="https://img.freepik.com/free-photo/front-view-tasty-meat-burger-with-cheese-salad-dark-background_140725-89597.jpg" alt="">
+                <h4>Recipe</h4>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/L6yX6Oxy_J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>>
+            </div>
+
+            <div class="main">
+                <h3>Sandwich</h3>
+                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2013/07/corn-sandwich-recipe-1.jpg" alt="">
+                <h4>Recipe</h4>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/1SFNLvXGS8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="main">
+                <h3>Spring Roll</h3>
+                <img src="https://media.istockphoto.com/id/684070860/photo/vegetable-spring-rolls.jpg?s=612x612&w=0&k=20&c=14ajA5mu4ql3y3tnZYvddG_qeTLBENKfr3-L1szrEHw=" alt="">
+                <h4>Recipe</h4>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/B5HdAw_Y0TU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <p><i class="fa-regular fa-copyright"></i> Copyright.All rights reserved.</p>
+      </footer>
+
+</body>
+</html>
